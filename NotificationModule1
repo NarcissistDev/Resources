@@ -1,3 +1,16 @@
+--[[
+
+Usage:
+
+local NotifModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/NarcissistDev/Resources/refs/heads/main/NotificationModule1"))()
+Celestial:Notify("Title Here", "This is a test notification!", 5)
+
+
+Made by Narcissist
+
+]]
+
+
 local TweenService = game:GetService("TweenService")
 local activeNotifications = {}
 
