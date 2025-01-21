@@ -1,0 +1,7 @@
+local FunctionModule = {}
+
+function FunctionModule:TestPrint(Text)
+  print(Text)
+end
+
+return FunctionModule
