@@ -1,0 +1,34 @@
+return {
+    ["Solara"] = {
+        Supported = true,
+        Reason = "Supports all required functions"
+    },
+    ["JJSploit x Xeno"] = {
+        Supported = false,
+        Reason = "Missing executor functions"
+    },
+    ["Xeno"] = {
+        Supported = false,
+        Reason = "Missing executor functions"
+    },
+    ["Wave"] = {
+        Supported = true,
+        Reason = "Supports all required functions"
+    },
+    ["AWP"] = {
+        Supported = true,
+        Reason = "Supports all required functions"
+    },
+    ["Delta"] = {
+        Supported = true,
+        Reason = "Supports all required functions"
+    },
+    ["Codex"] = {
+        Supported = true,
+        Reason = "Supports all required functions"
+    },
+    ["Synapse Z"] = {
+        Supported = true,
+        Reason = "Supports all required functions"
+    }
+}
