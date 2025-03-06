@@ -1,7 +1,7 @@
 return {
     ["Solara"] = {
-        Supported = true,
-        Reason = "Supports all required functions"
+        Supported = false,
+        Reason = "Missing executor functions"
     },
     ["JJSploit x Xeno"] = {
         Supported = false,
