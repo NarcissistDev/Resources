@@ -1,0 +1,11 @@
+local ExecTest = loadstring(game:HttpGet("https://raw.githubusercontent.com/NarcissistDev/Resources/refs/heads/main/TestExec"))() 
+local NotifModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/NarcissistDev/Resources/refs/heads/main/NotificationModule1"))()
+local Exec = identifyexecutor()
+
+if ExecTest[Exec] then
+    if not ExecTest[Exec].Supported then
+        NotifModule:Notify("Unsupported Executor", "Reason: " .. ExecTest[Exec].Reason, 5)
+    end
+else
+    NotifModule:Notify("Unsupported Executor", "Unstable Executor, Expect Bugs!", 5)
+end
