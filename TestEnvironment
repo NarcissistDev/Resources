@@ -4,8 +4,8 @@ local Exec = identifyexecutor()
 
 if ExecTest[Exec] then
     if not ExecTest[Exec].Supported then
-        NotifModule:Notify("Unsupported Executor", "Reason: " .. ExecTest[Exec].Reason, 5)
+        NotifModule:Notify("Unsupported Executor", "Reason: " .. ExecTest[Exec].Reason, 3)
     end
 else
-    NotifModule:Notify("Unsupported Executor", "Unstable Executor, Expect Bugs!", 5)
+    NotifModule:Notify("Unsupported Executor", "Unstable Executor, Expect Bugs!", 3)
 end
