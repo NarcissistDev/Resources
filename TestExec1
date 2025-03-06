@@ -1,0 +1,22 @@
+{
+    ["Solara"] = {
+        Supported = true,
+        Reason = "Supports all test functions"
+    },
+    ["ExecutorB"] = {
+        Supported = false,
+        Reason = "Does not support firetouchinterest"
+    },
+    ["ExecutorC"] = {
+        Supported = true,
+        Reason = "Supports firetouchinterest and all other test functions"
+    },
+    ["ExecutorD"] = {
+        Supported = false,
+        Reason = "Does not support hookfunction"
+    },
+    ["ExecutorE"] = {
+        Supported = true,
+        Reason = "Fully supports functions used in testing"
+    }
+}
